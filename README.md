@@ -1,6 +1,6 @@
 Software Implementation and Testing Major Assignment.
 ## About
-Let'sGoMas adalah website panduan lengkap untuk menjelajahi keindahan dan kekayaan budaya Banyumas. Dari tempat wisata alam yang memukau hingga situs bersejarah yang mengisahkan perjalanan panjang daerah ini, kami menghadirkan informasi yang komprehensif dan menarik bagi setiap pengunjung.
+Let'sGoMas adalah website yang memberikan panduan lengkap untuk menjelajahi keindahan dan kekayaan budaya Banyumas. Dari tempat wisata alam yang memukau hingga situs bersejarah yang mengisahkan perjalanan panjang daerah ini, kami menghadirkan informasi yang komprehensif dan menarik bagi setiap pengunjung.
 
 Kami percaya bahwa setiap sudut Banyumas memiliki cerita untuk diceritakan. Oleh karena itu, kami menyediakan berbagai artikel dan ulasan tentang objek wisata yang patut dicoba. Dengan informasi yang kami sajikan, kami berharap dapat membantu Anda merencanakan perjalanan yang tak terlupakan di Banyumas.
 
