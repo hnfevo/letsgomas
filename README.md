@@ -1,3 +1,4 @@
+## About
 Let'sGoMas is a website that provides a complete guide to exploring the beauty and cultural richness of Banyumas. From stunning natural attractions to historical sites that tell the long journey of this area, we present comprehensive and interesting information for every visitor.
 
 We believe that every corner of Banyumas has a story to tell. Therefore, we provide various articles and reviews about tourist attractions that are worth trying. With the information we present, we hope to help you plan an unforgettable trip to Banyumas.
