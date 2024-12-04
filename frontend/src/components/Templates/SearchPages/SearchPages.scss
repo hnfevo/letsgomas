@@ -1,0 +1,30 @@
+.header-2 {
+	height: 240px;
+	background-color: #9c9c9c;
+	.btn-back {
+		margin-top: 33px;
+		margin-left: 33px;
+		margin-bottom: 40px;
+	}
+	header {
+		padding-left: 85px;
+	}
+}
+.s-content {
+	margin-top: 36px;
+	margin-left: 135px;
+	width: 1099px;
+	h2 {
+		font-size: 32px;
+	}
+	.search-bar {
+		margin-top: 30px;
+		margin-left: 258px;
+		position: relative;
+		display: flex;
+		align-items: center;
+	}
+	.card-1 {
+		margin-top: 51px;
+	}
+}

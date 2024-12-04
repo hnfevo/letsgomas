@@ -1,0 +1,23 @@
+.thank {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	margin-top: 210px;
+	h1 {
+		font-size: 48px;
+		font-weight: bold;
+	}
+	p {
+		margin-top: 20px;
+		font-size: 24px;
+		width: 568px;
+		text-align: center;
+	}
+}
+.thank-you {
+	.btn-back {
+		margin-top: 78px;
+		margin-left: 1027px;
+		font-size: 24px;
+	}
+}

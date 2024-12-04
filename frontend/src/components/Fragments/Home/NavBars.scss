@@ -1,0 +1,22 @@
+.nav-bar {
+	display: flex;
+	align-items: center;
+	gap: 20px;
+	h2 {
+		font-size: 40px;
+		font-weight: bold;
+	}
+	h3 {
+		font-size: 24px;
+		font-weight: bold;
+	}
+}
+.search-bar {
+	position: relative;
+	display: flex;
+	align-items: center;
+}
+.search-icon {
+	position: absolute;
+	left: 20px;
+}
