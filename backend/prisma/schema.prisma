@@ -1,0 +1,62 @@
+// This is your Prisma schema file,
+// learn more about it in the docs: https://pris.ly/d/prisma-schema
+
+// Looking for ways to speed up your queries, or scale easily with your serverless or edge functions?
+// Try Prisma Accelerate: https://pris.ly/cli/accelerate-init
+
+generator client {
+  provider = "prisma-client-js"
+}
+
+datasource db {
+  provider = "mysql"
+  url      = env("DATABASE_URL")
+}
+
+model User {
+  username          String   @id @db.VarChar(100)
+  password          String   @db.VarChar(100)
+  name              String   @db.VarChar(100)
+  role              Role     @default(user)
+  token             String?  @db.VarChar(100)
+
+  destinations      Destination[]
+  articles          Article[]
+
+  @@map("users")
+}
+
+enum Role {
+  admin
+  user
+}
+
+model Destination {
+  id                Int         @id @default(autoincrement())
+  name              String      @db.VarChar(100)  
+  description       String      @db.Text
+  image             String?     @db.VarChar(255)
+  location          String      @db.VarChar(255)
+  opening_hours     String?     @db.VarChar(10)
+  close_hours       String?     @db.VarChar(10)
+  contact           String?     @db.VarChar(15)
+  username          String      @db.VarChar(100)
+
+  users             User        @relation(fields: [username], references: [username], map: "fk_destinations_user")
+  
+  @@map("destinations")
+}
+
+model Article {
+  id                Int         @id @default(autoincrement())
+  title             String      @db.VarChar(100)
+  content           String      @db.Text
+  image             String?     @db.VarChar(255)
+  createdAt         DateTime    @default(now())
+  author_name       String?     @db.VarChar(25)
+  username          String      @db.VarChar(100)
+
+  users             User        @relation(fields: [username], references: [username], map: "fk_articles_user")
+
+  @@map("articles")
+}
