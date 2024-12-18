@@ -1,0 +1,43 @@
+.container {
+  display: flex;
+  flex-direction: column;
+  margin: 20px 0;
+
+  @media (max-width: 768px) {
+    margin: 15px 0; 
+  }
+
+  @media (max-width: 480px) {
+    margin: 10px 0; 
+  }
+
+  &__input {
+    padding: 10px;
+    background-color: #ffffff;
+    margin-top: 5px;
+    border-radius: 5px;
+    border: 2px solid rgba(0, 0, 0, 0.185);
+    transition: border-color 0.3s ease;
+
+    @media (max-width: 768px) {
+      padding: 8px; 
+      font-size: 14px;
+    }
+
+    @media (max-width: 480px) {
+      padding: 6px; 
+      font-size: 12px; 
+    }
+  }
+
+  &__input:focus {
+    border-color: #007bff;
+    outline: none;
+  }
+
+  &__input[type='number']::-webkit-inner-spin-button,
+  input[type='number']::-webkit-outer-spin-button {
+    -webkit-appearance: none;
+    margin: 0;
+  }
+}
